@@ -6,7 +6,7 @@
  * usage:
  * freeradius.php stat_type host port shared_secret
  * stat_type:
- * auth, acct
+ * auth, acct, proxy-auth
  * Example: freeradius.php auth 10.10.10.23 18121 mysecret
 */
 
@@ -26,7 +26,7 @@ if ($_SERVER["argc"] == 5)
                         // execute radclient
                         $raw = shell_exec("echo -e \"Message-Authenticator = 0x00\nFreeRADIUS-Statistics-Type=Authentication\" | ".$radclient." -x ".$host.":".$port." status ".$secret);
                         $raw = explode("\n", $raw);
-                        // when using the original Attributes as ds, cacti doesn't import the values, so we do some attr_rewrite ;-)
+                        // when using the original Attribute as ds, cacti doesn't import the values, so we do some nasty rewrite
                         foreach($raw as $line)
                         {
                                 if (preg_match("/FreeRADIUS-Total-Access-Requests/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "acreq:".trim($avp[1])." "; } }
@@ -59,8 +59,29 @@ if ($_SERVER["argc"] == 5)
                         $output = rtrim($output);
                         break;
 
+                case "proxyauth":
+                        // execute radclient
+                        $raw = shell_exec("echo -e \"Message-Authenticator = 0x00\nFreeRADIUS-Statistics-Type=4\" | ".$radclient." -x ".$host.":".$port." status ".$secret);
+                        $raw = explode("\n", $raw);
+                        foreach($raw as $line)
+                        {
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Access-Requests/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "pacreq:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Access-Accepts/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "pacacc:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Access-Rejects/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "pacrej:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Access-Challenges/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "paccha:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Auth-Responses/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "paures:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Auth-Duplicate-Requests/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "paudup:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Auth-Malformed-Requests/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "paumal:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Auth-Invalid-Requests/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "pauinf:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Auth-Dropped-Requests/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "paudro:".trim($avp[1])." "; } }
+                                if (preg_match("/FreeRADIUS-Total-Proxy-Auth-Unknown-Types/i",$line)) { $avp = explode("=", $line); if (sizeof($avp)>1) { $output .= "pauunk:".trim($avp[1])." "; } }
+                        }
+                        $output = rtrim($output);
+
+                        break;
+
                 default:
-                        die("Error: undefinded parameter given.\nUse one of these: auth, acct\n");
+                        die("Error: undefinded parameter given.\nUse one of these: auth, acct, proxy-auth\n");
         }
         echo $output;
 
