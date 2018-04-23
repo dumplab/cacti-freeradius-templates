@@ -1,10 +1,10 @@
 <cacti>	
-	<hash_010100357bea0b8f04f6d708dca244a646c4ca>
-		<name>FreeRADIUS - Authentication statistics</name>
+	<hash_0101007448f73d7f74daa42c9c6b997e6bc1bf>
+		<name>FreeRADIUS - Proxy Authentication statistics</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - FreeRADIUS - Authentication statistics</name>
-			<data_input_id>hash_0301005e25ca029da4957d83e0977743513e9b</data_input_id>
+			<name>|host_description| - FreeRADIUS - Proxy Authentication statistics</name>
+			<data_input_id>hash_0301006e1104103f6f1502747dfb700aa26827</data_input_id>
 			<t_data_source_profile_id>on</t_data_source_profile_id>
 			<data_source_profile_id>hash_200100e143bdddf248faa59fa01760ae8f361a</data_source_profile_id>
 			<rrd_step>300</rrd_step>
@@ -12,9 +12,9 @@
 			<active>on</active>
 		</ds>
 		<items>
-			<hash_0801001a42e0cbb485db817e3f381b4357b473>
+			<hash_080100075df3805c1101c9005cf1bf261ee8ba>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>audup</data_source_name>
+				<data_source_name>paures</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -23,11 +23,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701000b2d75a0233896c5afa5b4c966cdfe37</data_input_field_id>
-			</hash_0801001a42e0cbb485db817e3f381b4357b473>
-			<hash_080100452584024d653c414f30f2ec507a0a74>
+				<data_input_field_id>hash_07010048e4b204502377c0c4d6afb89fc16104</data_input_field_id>
+			</hash_080100075df3805c1101c9005cf1bf261ee8ba>
+			<hash_08010013afea14866151a8ed378cc95d58eb08>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>acrej</data_source_name>
+				<data_source_name>paccha</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -36,11 +36,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070100c1ad74e76efed356f1523c3edcae258d</data_input_field_id>
-			</hash_080100452584024d653c414f30f2ec507a0a74>
-			<hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7>
+				<data_input_field_id>hash_070100376d258e05e154c1466d3a4703b59895</data_input_field_id>
+			</hash_08010013afea14866151a8ed378cc95d58eb08>
+			<hash_08010066994aacb64d9709ef8c2affe52eca18>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>auinf</data_source_name>
+				<data_source_name>paumal</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -49,11 +49,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701008e5baee8c9c37efd7df1eab747ad6742</data_input_field_id>
-			</hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7>
-			<hash_0801005d3d440aca044d6bedb0d5d636a0637e>
+				<data_input_field_id>hash_0701005a5e7c2689d6cd71c3cce6dc6982373a</data_input_field_id>
+			</hash_08010066994aacb64d9709ef8c2affe52eca18>
+			<hash_0801006f075e875859d1af188d36b738171752>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>auunk</data_source_name>
+				<data_source_name>pacrej</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -62,11 +62,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070100e8cf533423d82c0407200014a7eb638a</data_input_field_id>
-			</hash_0801005d3d440aca044d6bedb0d5d636a0637e>
-			<hash_08010074e92793a7d6871854f152a509266262>
+				<data_input_field_id>hash_070100eb6564c44e9fa1b5d0c595851cb42d20</data_input_field_id>
+			</hash_0801006f075e875859d1af188d36b738171752>
+			<hash_0801007ca3e36d83b393a58657707ec9f3d00c>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>aures</data_source_name>
+				<data_source_name>pacacc</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -75,11 +75,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701001d13896f093bca77a35ee7531b7ae2e6</data_input_field_id>
-			</hash_08010074e92793a7d6871854f152a509266262>
-			<hash_080100b3d695a3ecd1ae5e2e511e1cc8827909>
+				<data_input_field_id>hash_070100bd029cbee502c6aff7cb7a0393dd8db7</data_input_field_id>
+			</hash_0801007ca3e36d83b393a58657707ec9f3d00c>
+			<hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>aumal</data_source_name>
+				<data_source_name>pauinf</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -88,11 +88,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07010063a770fa4e2e352ff582d166fbaeb95d</data_input_field_id>
-			</hash_080100b3d695a3ecd1ae5e2e511e1cc8827909>
-			<hash_080100c7aa5d17746e287a7a5e36cf10a0d15b>
+				<data_input_field_id>hash_07010005042da601e4dcc7fea214a6057b1c3f</data_input_field_id>
+			</hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2>
+			<hash_0801009e595d6f1393645bd8a040d7fba67105>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>acreq</data_source_name>
+				<data_source_name>pacreq</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -101,11 +101,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070100df404f701ce33bc66fa664a2363a2f6e</data_input_field_id>
-			</hash_080100c7aa5d17746e287a7a5e36cf10a0d15b>
-			<hash_080100c97452a7c09305815c43201282ebed9e>
+				<data_input_field_id>hash_07010022a5e665a349bb012dec16c4e84ad7eb</data_input_field_id>
+			</hash_0801009e595d6f1393645bd8a040d7fba67105>
+			<hash_080100c6ad9537ea7297be962f059af70bf9e1>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>accha</data_source_name>
+				<data_source_name>pauunk</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -114,11 +114,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701003825fbfcc8a9abac84659fc4e896f3c1</data_input_field_id>
-			</hash_080100c97452a7c09305815c43201282ebed9e>
-			<hash_080100ccc9a90082d95ecb9942ee9872dbfcde>
+				<data_input_field_id>hash_0701007fb55043f22d461f0a942f90e6288652</data_input_field_id>
+			</hash_080100c6ad9537ea7297be962f059af70bf9e1>
+			<hash_080100d01b17bfb41f731b03bdcdcd383b433f>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>acacc</data_source_name>
+				<data_source_name>paudup</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -127,11 +127,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07010020e263362ec2b37d1c3bc056b8b6c878</data_input_field_id>
-			</hash_080100ccc9a90082d95ecb9942ee9872dbfcde>
-			<hash_080100f82e6298da3e17a2ad015991d542c6fb>
+				<data_input_field_id>hash_070100bb88468efe3a2758deb4288656bba33d</data_input_field_id>
+			</hash_080100d01b17bfb41f731b03bdcdcd383b433f>
+			<hash_080100d475c13bd36cf58268238dadd1e12205>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>audro</data_source_name>
+				<data_source_name>paudro</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -140,105 +140,141 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07010026cae9ddff49869f94b59bdd5a1c1255</data_input_field_id>
-			</hash_080100f82e6298da3e17a2ad015991d542c6fb>
+				<data_input_field_id>hash_070100440c5a107cdbc2f57ebef47b5bf49820</data_input_field_id>
+			</hash_080100d475c13bd36cf58268238dadd1e12205>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0701008791f738bc555b02d1ef46a341bcdec3</data_input_field_id>
+				<data_input_field_id>hash_070100f56a52b24a1ff85e043fe84448ceca16</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_0701000353c215a993937ca1d1713ed8499161</data_input_field_id>
+				<data_input_field_id>hash_070100f2eb85f8d2d47fbeb0110e7ab02ca2c2</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_0701006959b38210be22910f8d290b5aa8cd60</data_input_field_id>
+				<data_input_field_id>hash_070100143c8106c997a03ec3f4960477f52e36</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_002>
 		</data>
-	</hash_010100357bea0b8f04f6d708dca244a646c4ca>
-	<hash_0301005e25ca029da4957d83e0977743513e9b>
-		<name>FreeRADIUS Auth</name>
+	</hash_0101007448f73d7f74daa42c9c6b997e6bc1bf>
+	<hash_0301006e1104103f6f1502747dfb700aa26827>
+		<name>FreeRADIUS ProxyAuth</name>
 		<type_id>1</type_id>
-		<input_string>&lt;path_php_binary&gt; &lt;path_cacti&gt;/scripts/freeradius.php auth &lt;hostname&gt; &lt;port&gt; &lt;secret&gt;</input_string>
+		<input_string>&lt;path_php_binary&gt; &lt;path_cacti&gt;/scripts/freeradius.php proxyauth &lt;hostname&gt; &lt;port&gt; &lt;secret&gt;</input_string>
 		<fields>
-			<hash_0701000353c215a993937ca1d1713ed8499161>
-				<name>FreeRADIUS UDP Port of status</name>
-				<update_rra></update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>in</input_output>
-				<data_name>port</data_name>
-			</hash_0701000353c215a993937ca1d1713ed8499161>
-			<hash_0701000b2d75a0233896c5afa5b4c966cdfe37>
-				<name>Auth-Duplicate-Requests</name>
+			<hash_07010005042da601e4dcc7fea214a6057b1c3f>
+				<name>Proxy-Auth-Invalid-Requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>audup</data_name>
-			</hash_0701000b2d75a0233896c5afa5b4c966cdfe37>
-			<hash_0701001d13896f093bca77a35ee7531b7ae2e6>
-				<name>Auth-Responses</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>aures</data_name>
-			</hash_0701001d13896f093bca77a35ee7531b7ae2e6>
-			<hash_07010020e263362ec2b37d1c3bc056b8b6c878>
-				<name>Access-Accepts</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>acacc</data_name>
-			</hash_07010020e263362ec2b37d1c3bc056b8b6c878>
-			<hash_07010026cae9ddff49869f94b59bdd5a1c1255>
-				<name>Auth-Dropped-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>audro</data_name>
-			</hash_07010026cae9ddff49869f94b59bdd5a1c1255>
-			<hash_0701003825fbfcc8a9abac84659fc4e896f3c1>
-				<name>Access-Challenges</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>accha</data_name>
-			</hash_0701003825fbfcc8a9abac84659fc4e896f3c1>
-			<hash_07010063a770fa4e2e352ff582d166fbaeb95d>
-				<name>Auth-Malformed-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>aumal</data_name>
-			</hash_07010063a770fa4e2e352ff582d166fbaeb95d>
-			<hash_0701006959b38210be22910f8d290b5aa8cd60>
-				<name>FreeRADIUS Shared Secret</name>
+				<data_name>pauinf</data_name>
+			</hash_07010005042da601e4dcc7fea214a6057b1c3f>
+			<hash_070100143c8106c997a03ec3f4960477f52e36>
+				<name>FreeRADIUS Shared Secret </name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>secret</data_name>
-			</hash_0701006959b38210be22910f8d290b5aa8cd60>
-			<hash_0701008791f738bc555b02d1ef46a341bcdec3>
+			</hash_070100143c8106c997a03ec3f4960477f52e36>
+			<hash_07010022a5e665a349bb012dec16c4e84ad7eb>
+				<name>Proxy-Access-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pacreq</data_name>
+			</hash_07010022a5e665a349bb012dec16c4e84ad7eb>
+			<hash_070100376d258e05e154c1466d3a4703b59895>
+				<name>Proxy-Access-Challenges</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paccha</data_name>
+			</hash_070100376d258e05e154c1466d3a4703b59895>
+			<hash_070100440c5a107cdbc2f57ebef47b5bf49820>
+				<name>Proxy-Auth-Dropped-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paudro</data_name>
+			</hash_070100440c5a107cdbc2f57ebef47b5bf49820>
+			<hash_07010048e4b204502377c0c4d6afb89fc16104>
+				<name>Proxy-Auth-Responses</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paures</data_name>
+			</hash_07010048e4b204502377c0c4d6afb89fc16104>
+			<hash_0701005a5e7c2689d6cd71c3cce6dc6982373a>
+				<name>Proxy-Auth-Malformed-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paumal</data_name>
+			</hash_0701005a5e7c2689d6cd71c3cce6dc6982373a>
+			<hash_0701007fb55043f22d461f0a942f90e6288652>
+				<name>Proxy-Auth-Unknown-Types</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pauunk</data_name>
+			</hash_0701007fb55043f22d461f0a942f90e6288652>
+			<hash_070100bb88468efe3a2758deb4288656bba33d>
+				<name>Proxy-Auth-Duplicate-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paudup</data_name>
+			</hash_070100bb88468efe3a2758deb4288656bba33d>
+			<hash_070100bd029cbee502c6aff7cb7a0393dd8db7>
+				<name>Proxy-Access-Accepts</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pacacc</data_name>
+			</hash_070100bd029cbee502c6aff7cb7a0393dd8db7>
+			<hash_070100eb6564c44e9fa1b5d0c595851cb42d20>
+				<name>Proxy-Access-Rejects</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pacrej</data_name>
+			</hash_070100eb6564c44e9fa1b5d0c595851cb42d20>
+			<hash_070100f2eb85f8d2d47fbeb0110e7ab02ca2c2>
+				<name>FreeRADIUS UDP Port of status  </name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>port</data_name>
+			</hash_070100f2eb85f8d2d47fbeb0110e7ab02ca2c2>
+			<hash_070100f56a52b24a1ff85e043fe84448ceca16>
 				<name>FreeRADIUS IP-Address</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -246,45 +282,9 @@
 				<type_code>hostname</type_code>
 				<input_output>in</input_output>
 				<data_name>hostname</data_name>
-			</hash_0701008791f738bc555b02d1ef46a341bcdec3>
-			<hash_0701008e5baee8c9c37efd7df1eab747ad6742>
-				<name>Auth-Invalid-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>auinf</data_name>
-			</hash_0701008e5baee8c9c37efd7df1eab747ad6742>
-			<hash_070100c1ad74e76efed356f1523c3edcae258d>
-				<name>Access-Rejects</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>acrej</data_name>
-			</hash_070100c1ad74e76efed356f1523c3edcae258d>
-			<hash_070100df404f701ce33bc66fa664a2363a2f6e>
-				<name>Access-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>acreq</data_name>
-			</hash_070100df404f701ce33bc66fa664a2363a2f6e>
-			<hash_070100e8cf533423d82c0407200014a7eb638a>
-				<name>Auth-Unknown-Types</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>auunk</data_name>
-			</hash_070100e8cf533423d82c0407200014a7eb638a>
+			</hash_070100f56a52b24a1ff85e043fe84448ceca16>
 		</fields>
-	</hash_0301005e25ca029da4957d83e0977743513e9b>
+	</hash_0301006e1104103f6f1502747dfb700aa26827>
 	<hash_200100e143bdddf248faa59fa01760ae8f361a>
 		<name>5min</name>
 		<step>300</step>

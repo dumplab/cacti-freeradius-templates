@@ -1,9 +1,9 @@
 <cacti>	
-	<hash_000100cecebe9fc9eeb6dc4088e81dac998ea2>
-		<name>FreeRADIUS Authentication statistics</name>
+	<hash_00010006ca05de186364684ae59275b8ae0f72>
+		<name>FreeRADIUS Proxy Authentication statistics</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - FreeRADIUS requests</title>
+			<title>|host_description| - FreeRADIUS proxy requests</title>
 			<t_vertical_label></t_vertical_label>
 			<vertical_label></vertical_label>
 			<t_image_format_id></t_image_format_id>
@@ -64,9 +64,9 @@
 			<legend_direction>0</legend_direction>
 		</graph>
 		<items>
-			<hash_100100fe263d911755370ccd41fd390b97408c>
+			<hash_1001000e3723b26928864b223a8e3c39e38a18>
 				<graph_type_id>7</graph_type_id>
-				<task_item_id>hash_080100c7aa5d17746e287a7a5e36cf10a0d15b</task_item_id>
+				<task_item_id>hash_0801009e595d6f1393645bd8a040d7fba67105</task_item_id>
 				<color_id>4444FF</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -76,16 +76,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Total Requests</text_format>
+				<text_format>Total Proxy Requests</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>1</sequence>
-			</hash_100100fe263d911755370ccd41fd390b97408c>
-			<hash_100100014cd6cba5f28ad26c2a67e7dffba9f6>
+			</hash_1001000e3723b26928864b223a8e3c39e38a18>
+			<hash_1001001b2f6e8672d78ba971ad6c76a25be9d6>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100c7aa5d17746e287a7a5e36cf10a0d15b</task_item_id>
+				<task_item_id>hash_0801009e595d6f1393645bd8a040d7fba67105</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -101,10 +101,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>2</sequence>
-			</hash_100100014cd6cba5f28ad26c2a67e7dffba9f6>
-			<hash_100100c8c2e2dc9c117e03726ec2bb718f8290>
+			</hash_1001001b2f6e8672d78ba971ad6c76a25be9d6>
+			<hash_10010064c01ae2e771e241ab0de36de6f266c3>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100c7aa5d17746e287a7a5e36cf10a0d15b</task_item_id>
+				<task_item_id>hash_0801009e595d6f1393645bd8a040d7fba67105</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -120,10 +120,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>3</sequence>
-			</hash_100100c8c2e2dc9c117e03726ec2bb718f8290>
-			<hash_100100ddef30e38733edffaff9b88555627244>
+			</hash_10010064c01ae2e771e241ab0de36de6f266c3>
+			<hash_100100c13c2dd50e1e401a14bd417d9e4c80b2>
 				<graph_type_id>8</graph_type_id>
-				<task_item_id>hash_08010074e92793a7d6871854f152a509266262</task_item_id>
+				<task_item_id>hash_080100075df3805c1101c9005cf1bf261ee8ba</task_item_id>
 				<color_id>0ABFCC</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -133,16 +133,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Total Responses</text_format>
+				<text_format>Total Proxy Responses</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>4</sequence>
-			</hash_100100ddef30e38733edffaff9b88555627244>
-			<hash_1001002e90820eb50e3452083159f752fdb0b4>
+			</hash_100100c13c2dd50e1e401a14bd417d9e4c80b2>
+			<hash_100100040926e2deb511ed0d9eea39f66f1ef8>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_08010074e92793a7d6871854f152a509266262</task_item_id>
+				<task_item_id>hash_080100075df3805c1101c9005cf1bf261ee8ba</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -158,10 +158,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>5</sequence>
-			</hash_1001002e90820eb50e3452083159f752fdb0b4>
-			<hash_100100b8f9b667650515303a3350e614e4c117>
+			</hash_100100040926e2deb511ed0d9eea39f66f1ef8>
+			<hash_100100094b8b6214159b95d7128bbf9b244349>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_08010074e92793a7d6871854f152a509266262</task_item_id>
+				<task_item_id>hash_080100075df3805c1101c9005cf1bf261ee8ba</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -177,10 +177,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>6</sequence>
-			</hash_100100b8f9b667650515303a3350e614e4c117>
-			<hash_1001007c6bd63e479a1e619753ecc08e0147f1>
+			</hash_100100094b8b6214159b95d7128bbf9b244349>
+			<hash_1001007c912b2e07803553122de240cc5c5478>
 				<graph_type_id>5</graph_type_id>
-				<task_item_id>hash_080100ccc9a90082d95ecb9942ee9872dbfcde</task_item_id>
+				<task_item_id>hash_0801007ca3e36d83b393a58657707ec9f3d00c</task_item_id>
 				<color_id>00FF00</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -190,16 +190,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Access Accepts</text_format>
+				<text_format>Proxy Access Accepts</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>7</sequence>
-			</hash_1001007c6bd63e479a1e619753ecc08e0147f1>
-			<hash_100100c79d8038e7e001a235b57cc25c2b243c>
+			</hash_1001007c912b2e07803553122de240cc5c5478>
+			<hash_100100b71fdff8c778dc30d868fe79344d4dba>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100ccc9a90082d95ecb9942ee9872dbfcde</task_item_id>
+				<task_item_id>hash_0801007ca3e36d83b393a58657707ec9f3d00c</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -215,10 +215,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>8</sequence>
-			</hash_100100c79d8038e7e001a235b57cc25c2b243c>
-			<hash_10010096c97c5dc5f1a2fcf06c808ed803aed1>
+			</hash_100100b71fdff8c778dc30d868fe79344d4dba>
+			<hash_100100cb127922376d60f0fb7c271e0defbdc0>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100ccc9a90082d95ecb9942ee9872dbfcde</task_item_id>
+				<task_item_id>hash_0801007ca3e36d83b393a58657707ec9f3d00c</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -234,10 +234,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>9</sequence>
-			</hash_10010096c97c5dc5f1a2fcf06c808ed803aed1>
-			<hash_100100a5ff7f9c4eb82430743965100f5c0a3b>
+			</hash_100100cb127922376d60f0fb7c271e0defbdc0>
+			<hash_10010066842ad31d589781aa38e3be065a5c95>
 				<graph_type_id>5</graph_type_id>
-				<task_item_id>hash_080100452584024d653c414f30f2ec507a0a74</task_item_id>
+				<task_item_id>hash_0801006f075e875859d1af188d36b738171752</task_item_id>
 				<color_id>FF0000</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -247,16 +247,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Access Rejects</text_format>
+				<text_format>Proxy Access Rejects</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>10</sequence>
-			</hash_100100a5ff7f9c4eb82430743965100f5c0a3b>
-			<hash_100100f8927d4991e0fd6a116868acfdecccc8>
+			</hash_10010066842ad31d589781aa38e3be065a5c95>
+			<hash_100100bed4aa6bd0185b791e78a0ad2912bef5>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100452584024d653c414f30f2ec507a0a74</task_item_id>
+				<task_item_id>hash_0801006f075e875859d1af188d36b738171752</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -272,10 +272,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>11</sequence>
-			</hash_100100f8927d4991e0fd6a116868acfdecccc8>
-			<hash_100100844ebc4e73fb93080e20efa69cc65d39>
+			</hash_100100bed4aa6bd0185b791e78a0ad2912bef5>
+			<hash_100100b4188a22a2ab5309c8114fb467c78276>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100452584024d653c414f30f2ec507a0a74</task_item_id>
+				<task_item_id>hash_0801006f075e875859d1af188d36b738171752</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -291,10 +291,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>12</sequence>
-			</hash_100100844ebc4e73fb93080e20efa69cc65d39>
-			<hash_1001004f843ff79a486e14121a8b5c5711f9c3>
+			</hash_100100b4188a22a2ab5309c8114fb467c78276>
+			<hash_10010052f13b0d48249445cae5083e8a465448>
 				<graph_type_id>4</graph_type_id>
-				<task_item_id>hash_080100f82e6298da3e17a2ad015991d542c6fb</task_item_id>
+				<task_item_id>hash_080100d475c13bd36cf58268238dadd1e12205</task_item_id>
 				<color_id>942D0C</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -304,16 +304,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Dropped Requests</text_format>
+				<text_format>Proxy Dropped Requests</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>13</sequence>
-			</hash_1001004f843ff79a486e14121a8b5c5711f9c3>
-			<hash_1001001e80a52972f144100d3e148d580a2e18>
+			</hash_10010052f13b0d48249445cae5083e8a465448>
+			<hash_10010092add0e92679630b5b9ff700ce9418a5>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100f82e6298da3e17a2ad015991d542c6fb</task_item_id>
+				<task_item_id>hash_080100d475c13bd36cf58268238dadd1e12205</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -329,10 +329,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>14</sequence>
-			</hash_1001001e80a52972f144100d3e148d580a2e18>
-			<hash_1001003d6c5dc6df7eaadb9a4e0b24f8e854bb>
+			</hash_10010092add0e92679630b5b9ff700ce9418a5>
+			<hash_1001003915bcef2cef44a0bb6e30aee513f57a>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100f82e6298da3e17a2ad015991d542c6fb</task_item_id>
+				<task_item_id>hash_080100d475c13bd36cf58268238dadd1e12205</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -348,10 +348,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>15</sequence>
-			</hash_1001003d6c5dc6df7eaadb9a4e0b24f8e854bb>
-			<hash_100100525ad3a27ec1921428829e345b075c3a>
+			</hash_1001003915bcef2cef44a0bb6e30aee513f57a>
+			<hash_100100d95d2b5fc6e4d77b55318889ab4bc12e>
 				<graph_type_id>4</graph_type_id>
-				<task_item_id>hash_0801001a42e0cbb485db817e3f381b4357b473</task_item_id>
+				<task_item_id>hash_080100d01b17bfb41f731b03bdcdcd383b433f</task_item_id>
 				<color_id>FFFFFF</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -361,16 +361,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Duplicated Requests</text_format>
+				<text_format>Proxy Duplicated Requests</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>16</sequence>
-			</hash_100100525ad3a27ec1921428829e345b075c3a>
-			<hash_1001001b6f69565c80a7ee11d24cadda27e761>
+			</hash_100100d95d2b5fc6e4d77b55318889ab4bc12e>
+			<hash_1001004dfa5094a3376bea46399ddd9af614ad>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_0801001a42e0cbb485db817e3f381b4357b473</task_item_id>
+				<task_item_id>hash_080100d01b17bfb41f731b03bdcdcd383b433f</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -386,10 +386,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>17</sequence>
-			</hash_1001001b6f69565c80a7ee11d24cadda27e761>
-			<hash_1001008295ac03f5e11b0aaa9610a49209af0f>
+			</hash_1001004dfa5094a3376bea46399ddd9af614ad>
+			<hash_1001006d1a68ed2961037d605112d2bdd10e63>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_0801001a42e0cbb485db817e3f381b4357b473</task_item_id>
+				<task_item_id>hash_080100d01b17bfb41f731b03bdcdcd383b433f</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -405,10 +405,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>18</sequence>
-			</hash_1001008295ac03f5e11b0aaa9610a49209af0f>
-			<hash_100100e3fe2694424a111d54f17cc72719f0e5>
+			</hash_1001006d1a68ed2961037d605112d2bdd10e63>
+			<hash_100100aeb382af40b6edc900e0938bde94f38e>
 				<graph_type_id>4</graph_type_id>
-				<task_item_id>hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7</task_item_id>
+				<task_item_id>hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2</task_item_id>
 				<color_id>E6D883</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -418,16 +418,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Invalid Requests</text_format>
+				<text_format>Proxy Invalid Requests</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>19</sequence>
-			</hash_100100e3fe2694424a111d54f17cc72719f0e5>
-			<hash_100100f5821902e8f99ba4775853bab01b0709>
+			</hash_100100aeb382af40b6edc900e0938bde94f38e>
+			<hash_100100b8b71d6d54d94ced072144d5eab4f625>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7</task_item_id>
+				<task_item_id>hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -443,10 +443,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>20</sequence>
-			</hash_100100f5821902e8f99ba4775853bab01b0709>
-			<hash_100100528f8f8c04e1b0f152fdbac0dd8b0c2e>
+			</hash_100100b8b71d6d54d94ced072144d5eab4f625>
+			<hash_1001001ce74a41fcb0857446cfca015ed47f45>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7</task_item_id>
+				<task_item_id>hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -462,10 +462,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>21</sequence>
-			</hash_100100528f8f8c04e1b0f152fdbac0dd8b0c2e>
-			<hash_1001004e1caeedab7ff763f80a81436125e504>
+			</hash_1001001ce74a41fcb0857446cfca015ed47f45>
+			<hash_100100794568b96e90caf49b2a9838bf032503>
 				<graph_type_id>4</graph_type_id>
-				<task_item_id>hash_080100b3d695a3ecd1ae5e2e511e1cc8827909</task_item_id>
+				<task_item_id>hash_08010066994aacb64d9709ef8c2affe52eca18</task_item_id>
 				<color_id>6EA100</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>1</consolidation_function_id>
@@ -475,16 +475,16 @@
 				<value></value>
 				<gprint_id>hash_060100e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>Malformed Requests</text_format>
+				<text_format>Proxy Malformed Requests</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>22</sequence>
-			</hash_1001004e1caeedab7ff763f80a81436125e504>
-			<hash_1001001db3529b49ee79920ae57b15ea12d2f9>
+			</hash_100100794568b96e90caf49b2a9838bf032503>
+			<hash_100100de76c04145d997e2d21d2234baa19177>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100b3d695a3ecd1ae5e2e511e1cc8827909</task_item_id>
+				<task_item_id>hash_08010066994aacb64d9709ef8c2affe52eca18</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>4</consolidation_function_id>
@@ -500,10 +500,10 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>23</sequence>
-			</hash_1001001db3529b49ee79920ae57b15ea12d2f9>
-			<hash_10010024ae28e0a6bd700164ca60973a7c4ad3>
+			</hash_100100de76c04145d997e2d21d2234baa19177>
+			<hash_1001008f66a208f74ff8c7f089f5b591fd9721>
 				<graph_type_id>9</graph_type_id>
-				<task_item_id>hash_080100b3d695a3ecd1ae5e2e511e1cc8827909</task_item_id>
+				<task_item_id>hash_08010066994aacb64d9709ef8c2affe52eca18</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<consolidation_function_id>3</consolidation_function_id>
@@ -519,65 +519,65 @@
 				<dashes></dashes>
 				<dash_offset>0</dash_offset>
 				<sequence>24</sequence>
-			</hash_10010024ae28e0a6bd700164ca60973a7c4ad3>
+			</hash_1001008f66a208f74ff8c7f089f5b591fd9721>
 		</items>
 		<inputs>
-			<hash_0901006471441b00259fab5c087e3306b216c5>
-				<name>Data Source [acreq]</name>
+			<hash_09010059206c72016976ce6a575e88b12a66dd>
+				<name>Data Source [pacacc]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_000100fe263d911755370ccd41fd390b97408c|hash_000100014cd6cba5f28ad26c2a67e7dffba9f6|hash_000100c8c2e2dc9c117e03726ec2bb718f8290</items>
-			</hash_0901006471441b00259fab5c087e3306b216c5>
-			<hash_0901007183ae59d94d0bfd914ad92622d7b280>
-				<name>Data Source [audro]</name>
+				<items>hash_0001007c912b2e07803553122de240cc5c5478|hash_000100cb127922376d60f0fb7c271e0defbdc0|hash_000100b71fdff8c778dc30d868fe79344d4dba</items>
+			</hash_09010059206c72016976ce6a575e88b12a66dd>
+			<hash_0901005b3ee5405fa23216fa2b7281871d2021>
+				<name>Data Source [paumal]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_0001004f843ff79a486e14121a8b5c5711f9c3|hash_0001001e80a52972f144100d3e148d580a2e18|hash_0001003d6c5dc6df7eaadb9a4e0b24f8e854bb</items>
-			</hash_0901007183ae59d94d0bfd914ad92622d7b280>
-			<hash_090100895e9f55a83ef12e4b29a52509f4f041>
-				<name>Data Source [auinf]</name>
+				<items>hash_0001008f66a208f74ff8c7f089f5b591fd9721|hash_000100de76c04145d997e2d21d2234baa19177|hash_000100794568b96e90caf49b2a9838bf032503</items>
+			</hash_0901005b3ee5405fa23216fa2b7281871d2021>
+			<hash_09010062f1411b387cd08e462e9402f950281f>
+				<name>Data Source [pacreq]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_000100528f8f8c04e1b0f152fdbac0dd8b0c2e|hash_000100f5821902e8f99ba4775853bab01b0709|hash_000100e3fe2694424a111d54f17cc72719f0e5</items>
-			</hash_090100895e9f55a83ef12e4b29a52509f4f041>
-			<hash_090100ae5f92cc38d35e30ceabd09f2e2abd81>
-				<name>Data Source [audup]</name>
+				<items>hash_0001001b2f6e8672d78ba971ad6c76a25be9d6|hash_00010064c01ae2e771e241ab0de36de6f266c3|hash_0001000e3723b26928864b223a8e3c39e38a18</items>
+			</hash_09010062f1411b387cd08e462e9402f950281f>
+			<hash_0901006ab9139a608f856217959feda0b0a593>
+				<name>Data Source [paures]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_0001008295ac03f5e11b0aaa9610a49209af0f|hash_000100525ad3a27ec1921428829e345b075c3a|hash_0001001b6f69565c80a7ee11d24cadda27e761</items>
-			</hash_090100ae5f92cc38d35e30ceabd09f2e2abd81>
-			<hash_090100e5150bd733c397e2af008e13b75c6cc7>
-				<name>Data Source [aures]</name>
+				<items>hash_000100094b8b6214159b95d7128bbf9b244349|hash_000100040926e2deb511ed0d9eea39f66f1ef8|hash_000100c13c2dd50e1e401a14bd417d9e4c80b2</items>
+			</hash_0901006ab9139a608f856217959feda0b0a593>
+			<hash_0901007da35ac3fb22bbbee2cffb5af738460c>
+				<name>Data Source [pacrej]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_000100ddef30e38733edffaff9b88555627244|hash_0001002e90820eb50e3452083159f752fdb0b4|hash_000100b8f9b667650515303a3350e614e4c117</items>
-			</hash_090100e5150bd733c397e2af008e13b75c6cc7>
-			<hash_090100e833417708a29dceaf5c0cae2c778a17>
-				<name>Data Source [aumal]</name>
+				<items>hash_000100b4188a22a2ab5309c8114fb467c78276|hash_000100bed4aa6bd0185b791e78a0ad2912bef5|hash_00010066842ad31d589781aa38e3be065a5c95</items>
+			</hash_0901007da35ac3fb22bbbee2cffb5af738460c>
+			<hash_090100c7d3cdd52d5ba6e545fd3a342b1e368a>
+				<name>Data Source [paudro]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_00010024ae28e0a6bd700164ca60973a7c4ad3|hash_0001001db3529b49ee79920ae57b15ea12d2f9|hash_0001004e1caeedab7ff763f80a81436125e504</items>
-			</hash_090100e833417708a29dceaf5c0cae2c778a17>
-			<hash_090100e8f9497f899798f52434549ec506690d>
-				<name>Data Source [acacc]</name>
+				<items>hash_00010052f13b0d48249445cae5083e8a465448|hash_00010092add0e92679630b5b9ff700ce9418a5|hash_0001003915bcef2cef44a0bb6e30aee513f57a</items>
+			</hash_090100c7d3cdd52d5ba6e545fd3a342b1e368a>
+			<hash_090100ee9449bfcbd69019b1b81fcb47585658>
+				<name>Data Source [pauinf]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_00010096c97c5dc5f1a2fcf06c808ed803aed1|hash_000100c79d8038e7e001a235b57cc25c2b243c|hash_0001007c6bd63e479a1e619753ecc08e0147f1</items>
-			</hash_090100e8f9497f899798f52434549ec506690d>
-			<hash_090100ea27dde724df8eafc2bc0d2b1bc7f74e>
-				<name>Data Source [acrej]</name>
+				<items>hash_0001001ce74a41fcb0857446cfca015ed47f45|hash_000100b8b71d6d54d94ced072144d5eab4f625|hash_000100aeb382af40b6edc900e0938bde94f38e</items>
+			</hash_090100ee9449bfcbd69019b1b81fcb47585658>
+			<hash_090100faa858549cbd2210a1cadea8c63a8cf8>
+				<name>Data Source [paudup]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_000100844ebc4e73fb93080e20efa69cc65d39|hash_000100f8927d4991e0fd6a116868acfdecccc8|hash_000100a5ff7f9c4eb82430743965100f5c0a3b</items>
-			</hash_090100ea27dde724df8eafc2bc0d2b1bc7f74e>
+				<items>hash_0001006d1a68ed2961037d605112d2bdd10e63|hash_000100d95d2b5fc6e4d77b55318889ab4bc12e|hash_0001004dfa5094a3376bea46399ddd9af614ad</items>
+			</hash_090100faa858549cbd2210a1cadea8c63a8cf8>
 		</inputs>
-	</hash_000100cecebe9fc9eeb6dc4088e81dac998ea2>
-	<hash_010100357bea0b8f04f6d708dca244a646c4ca>
-		<name>FreeRADIUS - Authentication statistics</name>
+	</hash_00010006ca05de186364684ae59275b8ae0f72>
+	<hash_0101007448f73d7f74daa42c9c6b997e6bc1bf>
+		<name>FreeRADIUS - Proxy Authentication statistics</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - FreeRADIUS - Authentication statistics</name>
-			<data_input_id>hash_0301005e25ca029da4957d83e0977743513e9b</data_input_id>
+			<name>|host_description| - FreeRADIUS - Proxy Authentication statistics</name>
+			<data_input_id>hash_0301006e1104103f6f1502747dfb700aa26827</data_input_id>
 			<t_data_source_profile_id>on</t_data_source_profile_id>
 			<data_source_profile_id>hash_200100e143bdddf248faa59fa01760ae8f361a</data_source_profile_id>
 			<rrd_step>300</rrd_step>
@@ -585,9 +585,9 @@
 			<active>on</active>
 		</ds>
 		<items>
-			<hash_0801001a42e0cbb485db817e3f381b4357b473>
+			<hash_080100075df3805c1101c9005cf1bf261ee8ba>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>audup</data_source_name>
+				<data_source_name>paures</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -596,11 +596,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701000b2d75a0233896c5afa5b4c966cdfe37</data_input_field_id>
-			</hash_0801001a42e0cbb485db817e3f381b4357b473>
-			<hash_080100452584024d653c414f30f2ec507a0a74>
+				<data_input_field_id>hash_07010048e4b204502377c0c4d6afb89fc16104</data_input_field_id>
+			</hash_080100075df3805c1101c9005cf1bf261ee8ba>
+			<hash_08010013afea14866151a8ed378cc95d58eb08>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>acrej</data_source_name>
+				<data_source_name>paccha</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -609,11 +609,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070100c1ad74e76efed356f1523c3edcae258d</data_input_field_id>
-			</hash_080100452584024d653c414f30f2ec507a0a74>
-			<hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7>
+				<data_input_field_id>hash_070100376d258e05e154c1466d3a4703b59895</data_input_field_id>
+			</hash_08010013afea14866151a8ed378cc95d58eb08>
+			<hash_08010066994aacb64d9709ef8c2affe52eca18>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>auinf</data_source_name>
+				<data_source_name>paumal</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -622,11 +622,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701008e5baee8c9c37efd7df1eab747ad6742</data_input_field_id>
-			</hash_0801005cf8bedddb8258f39ea3b5dd82c98ac7>
-			<hash_0801005d3d440aca044d6bedb0d5d636a0637e>
+				<data_input_field_id>hash_0701005a5e7c2689d6cd71c3cce6dc6982373a</data_input_field_id>
+			</hash_08010066994aacb64d9709ef8c2affe52eca18>
+			<hash_0801006f075e875859d1af188d36b738171752>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>auunk</data_source_name>
+				<data_source_name>pacrej</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -635,11 +635,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070100e8cf533423d82c0407200014a7eb638a</data_input_field_id>
-			</hash_0801005d3d440aca044d6bedb0d5d636a0637e>
-			<hash_08010074e92793a7d6871854f152a509266262>
+				<data_input_field_id>hash_070100eb6564c44e9fa1b5d0c595851cb42d20</data_input_field_id>
+			</hash_0801006f075e875859d1af188d36b738171752>
+			<hash_0801007ca3e36d83b393a58657707ec9f3d00c>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>aures</data_source_name>
+				<data_source_name>pacacc</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -648,11 +648,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701001d13896f093bca77a35ee7531b7ae2e6</data_input_field_id>
-			</hash_08010074e92793a7d6871854f152a509266262>
-			<hash_080100b3d695a3ecd1ae5e2e511e1cc8827909>
+				<data_input_field_id>hash_070100bd029cbee502c6aff7cb7a0393dd8db7</data_input_field_id>
+			</hash_0801007ca3e36d83b393a58657707ec9f3d00c>
+			<hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>aumal</data_source_name>
+				<data_source_name>pauinf</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -661,11 +661,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07010063a770fa4e2e352ff582d166fbaeb95d</data_input_field_id>
-			</hash_080100b3d695a3ecd1ae5e2e511e1cc8827909>
-			<hash_080100c7aa5d17746e287a7a5e36cf10a0d15b>
+				<data_input_field_id>hash_07010005042da601e4dcc7fea214a6057b1c3f</data_input_field_id>
+			</hash_0801007d9a0bfbecc03cb6c827dbbac4255ec2>
+			<hash_0801009e595d6f1393645bd8a040d7fba67105>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>acreq</data_source_name>
+				<data_source_name>pacreq</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -674,11 +674,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070100df404f701ce33bc66fa664a2363a2f6e</data_input_field_id>
-			</hash_080100c7aa5d17746e287a7a5e36cf10a0d15b>
-			<hash_080100c97452a7c09305815c43201282ebed9e>
+				<data_input_field_id>hash_07010022a5e665a349bb012dec16c4e84ad7eb</data_input_field_id>
+			</hash_0801009e595d6f1393645bd8a040d7fba67105>
+			<hash_080100c6ad9537ea7297be962f059af70bf9e1>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>accha</data_source_name>
+				<data_source_name>pauunk</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -687,11 +687,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0701003825fbfcc8a9abac84659fc4e896f3c1</data_input_field_id>
-			</hash_080100c97452a7c09305815c43201282ebed9e>
-			<hash_080100ccc9a90082d95ecb9942ee9872dbfcde>
+				<data_input_field_id>hash_0701007fb55043f22d461f0a942f90e6288652</data_input_field_id>
+			</hash_080100c6ad9537ea7297be962f059af70bf9e1>
+			<hash_080100d01b17bfb41f731b03bdcdcd383b433f>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>acacc</data_source_name>
+				<data_source_name>paudup</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -700,11 +700,11 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07010020e263362ec2b37d1c3bc056b8b6c878</data_input_field_id>
-			</hash_080100ccc9a90082d95ecb9942ee9872dbfcde>
-			<hash_080100f82e6298da3e17a2ad015991d542c6fb>
+				<data_input_field_id>hash_070100bb88468efe3a2758deb4288656bba33d</data_input_field_id>
+			</hash_080100d01b17bfb41f731b03bdcdcd383b433f>
+			<hash_080100d475c13bd36cf58268238dadd1e12205>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>audro</data_source_name>
+				<data_source_name>paudro</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -713,105 +713,141 @@
 				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07010026cae9ddff49869f94b59bdd5a1c1255</data_input_field_id>
-			</hash_080100f82e6298da3e17a2ad015991d542c6fb>
+				<data_input_field_id>hash_070100440c5a107cdbc2f57ebef47b5bf49820</data_input_field_id>
+			</hash_080100d475c13bd36cf58268238dadd1e12205>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0701008791f738bc555b02d1ef46a341bcdec3</data_input_field_id>
+				<data_input_field_id>hash_070100f56a52b24a1ff85e043fe84448ceca16</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_0701000353c215a993937ca1d1713ed8499161</data_input_field_id>
+				<data_input_field_id>hash_070100f2eb85f8d2d47fbeb0110e7ab02ca2c2</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_0701006959b38210be22910f8d290b5aa8cd60</data_input_field_id>
+				<data_input_field_id>hash_070100143c8106c997a03ec3f4960477f52e36</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_002>
 		</data>
-	</hash_010100357bea0b8f04f6d708dca244a646c4ca>
-	<hash_0301005e25ca029da4957d83e0977743513e9b>
-		<name>FreeRADIUS Auth</name>
+	</hash_0101007448f73d7f74daa42c9c6b997e6bc1bf>
+	<hash_0301006e1104103f6f1502747dfb700aa26827>
+		<name>FreeRADIUS ProxyAuth</name>
 		<type_id>1</type_id>
-		<input_string>&lt;path_php_binary&gt; &lt;path_cacti&gt;/scripts/freeradius.php auth &lt;hostname&gt; &lt;port&gt; &lt;secret&gt;</input_string>
+		<input_string>&lt;path_php_binary&gt; &lt;path_cacti&gt;/scripts/freeradius.php proxyauth &lt;hostname&gt; &lt;port&gt; &lt;secret&gt;</input_string>
 		<fields>
-			<hash_0701000353c215a993937ca1d1713ed8499161>
-				<name>FreeRADIUS UDP Port of status</name>
-				<update_rra></update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>in</input_output>
-				<data_name>port</data_name>
-			</hash_0701000353c215a993937ca1d1713ed8499161>
-			<hash_0701000b2d75a0233896c5afa5b4c966cdfe37>
-				<name>Auth-Duplicate-Requests</name>
+			<hash_07010005042da601e4dcc7fea214a6057b1c3f>
+				<name>Proxy-Auth-Invalid-Requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>audup</data_name>
-			</hash_0701000b2d75a0233896c5afa5b4c966cdfe37>
-			<hash_0701001d13896f093bca77a35ee7531b7ae2e6>
-				<name>Auth-Responses</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>aures</data_name>
-			</hash_0701001d13896f093bca77a35ee7531b7ae2e6>
-			<hash_07010020e263362ec2b37d1c3bc056b8b6c878>
-				<name>Access-Accepts</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>acacc</data_name>
-			</hash_07010020e263362ec2b37d1c3bc056b8b6c878>
-			<hash_07010026cae9ddff49869f94b59bdd5a1c1255>
-				<name>Auth-Dropped-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>audro</data_name>
-			</hash_07010026cae9ddff49869f94b59bdd5a1c1255>
-			<hash_0701003825fbfcc8a9abac84659fc4e896f3c1>
-				<name>Access-Challenges</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>accha</data_name>
-			</hash_0701003825fbfcc8a9abac84659fc4e896f3c1>
-			<hash_07010063a770fa4e2e352ff582d166fbaeb95d>
-				<name>Auth-Malformed-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>aumal</data_name>
-			</hash_07010063a770fa4e2e352ff582d166fbaeb95d>
-			<hash_0701006959b38210be22910f8d290b5aa8cd60>
-				<name>FreeRADIUS Shared Secret</name>
+				<data_name>pauinf</data_name>
+			</hash_07010005042da601e4dcc7fea214a6057b1c3f>
+			<hash_070100143c8106c997a03ec3f4960477f52e36>
+				<name>FreeRADIUS Shared Secret </name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>secret</data_name>
-			</hash_0701006959b38210be22910f8d290b5aa8cd60>
-			<hash_0701008791f738bc555b02d1ef46a341bcdec3>
+			</hash_070100143c8106c997a03ec3f4960477f52e36>
+			<hash_07010022a5e665a349bb012dec16c4e84ad7eb>
+				<name>Proxy-Access-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pacreq</data_name>
+			</hash_07010022a5e665a349bb012dec16c4e84ad7eb>
+			<hash_070100376d258e05e154c1466d3a4703b59895>
+				<name>Proxy-Access-Challenges</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paccha</data_name>
+			</hash_070100376d258e05e154c1466d3a4703b59895>
+			<hash_070100440c5a107cdbc2f57ebef47b5bf49820>
+				<name>Proxy-Auth-Dropped-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paudro</data_name>
+			</hash_070100440c5a107cdbc2f57ebef47b5bf49820>
+			<hash_07010048e4b204502377c0c4d6afb89fc16104>
+				<name>Proxy-Auth-Responses</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paures</data_name>
+			</hash_07010048e4b204502377c0c4d6afb89fc16104>
+			<hash_0701005a5e7c2689d6cd71c3cce6dc6982373a>
+				<name>Proxy-Auth-Malformed-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paumal</data_name>
+			</hash_0701005a5e7c2689d6cd71c3cce6dc6982373a>
+			<hash_0701007fb55043f22d461f0a942f90e6288652>
+				<name>Proxy-Auth-Unknown-Types</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pauunk</data_name>
+			</hash_0701007fb55043f22d461f0a942f90e6288652>
+			<hash_070100bb88468efe3a2758deb4288656bba33d>
+				<name>Proxy-Auth-Duplicate-Requests</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>paudup</data_name>
+			</hash_070100bb88468efe3a2758deb4288656bba33d>
+			<hash_070100bd029cbee502c6aff7cb7a0393dd8db7>
+				<name>Proxy-Access-Accepts</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pacacc</data_name>
+			</hash_070100bd029cbee502c6aff7cb7a0393dd8db7>
+			<hash_070100eb6564c44e9fa1b5d0c595851cb42d20>
+				<name>Proxy-Access-Rejects</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>pacrej</data_name>
+			</hash_070100eb6564c44e9fa1b5d0c595851cb42d20>
+			<hash_070100f2eb85f8d2d47fbeb0110e7ab02ca2c2>
+				<name>FreeRADIUS UDP Port of status  </name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>port</data_name>
+			</hash_070100f2eb85f8d2d47fbeb0110e7ab02ca2c2>
+			<hash_070100f56a52b24a1ff85e043fe84448ceca16>
 				<name>FreeRADIUS IP-Address</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -819,45 +855,9 @@
 				<type_code>hostname</type_code>
 				<input_output>in</input_output>
 				<data_name>hostname</data_name>
-			</hash_0701008791f738bc555b02d1ef46a341bcdec3>
-			<hash_0701008e5baee8c9c37efd7df1eab747ad6742>
-				<name>Auth-Invalid-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>auinf</data_name>
-			</hash_0701008e5baee8c9c37efd7df1eab747ad6742>
-			<hash_070100c1ad74e76efed356f1523c3edcae258d>
-				<name>Access-Rejects</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>acrej</data_name>
-			</hash_070100c1ad74e76efed356f1523c3edcae258d>
-			<hash_070100df404f701ce33bc66fa664a2363a2f6e>
-				<name>Access-Requests</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>acreq</data_name>
-			</hash_070100df404f701ce33bc66fa664a2363a2f6e>
-			<hash_070100e8cf533423d82c0407200014a7eb638a>
-				<name>Auth-Unknown-Types</name>
-				<update_rra>on</update_rra>
-				<regexp_match></regexp_match>
-				<allow_nulls></allow_nulls>
-				<type_code></type_code>
-				<input_output>out</input_output>
-				<data_name>auunk</data_name>
-			</hash_070100e8cf533423d82c0407200014a7eb638a>
+			</hash_070100f56a52b24a1ff85e043fe84448ceca16>
 		</fields>
-	</hash_0301005e25ca029da4957d83e0977743513e9b>
+	</hash_0301006e1104103f6f1502747dfb700aa26827>
 	<hash_200100e143bdddf248faa59fa01760ae8f361a>
 		<name>5min</name>
 		<step>300</step>

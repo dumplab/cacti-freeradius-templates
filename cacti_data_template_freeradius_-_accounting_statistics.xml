@@ -5,9 +5,9 @@
 			<t_name></t_name>
 			<name>|host_description| - FreeRADIUS - Accounting statistics</name>
 			<data_input_id>hash_03010052729e8a71c2e0d6ab3fe6d81aded19d</data_input_id>
-			<t_data_source_profile_id></t_data_source_profile_id>
-			<data_source_profile_id>hash_2001007e911f9832b3039ebb2d16b4f76cd9be</data_source_profile_id>
-			<rrd_step>30</rrd_step>
+			<t_data_source_profile_id>on</t_data_source_profile_id>
+			<data_source_profile_id>hash_200100e143bdddf248faa59fa01760ae8f361a</data_source_profile_id>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 		</ds>
@@ -18,9 +18,9 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>0</rrd_maximum>
+				<rrd_maximum>U</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
-				<data_source_type_id>1</data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070100b401b069e41f0407d43fc6204034727d</data_input_field_id>
@@ -213,15 +213,15 @@
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
-				<type_code></type_code>
+				<type_code>hostname</type_code>
 				<input_output>in</input_output>
 				<data_name>hostname</data_name>
 			</hash_070100dbcb9110a724b2e90c5e6f5359766b10>
 		</fields>
 	</hash_03010052729e8a71c2e0d6ab3fe6d81aded19d>
-	<hash_2001007e911f9832b3039ebb2d16b4f76cd9be>
-		<name>Upgrade Profile 1</name>
-		<step>30</step>
+	<hash_200100e143bdddf248faa59fa01760ae8f361a>
+		<name>5min</name>
+		<step>300</step>
 		<heartbeat>600</heartbeat>
 		<x_files_factor>0.5</x_files_factor>
 		<default></default>
@@ -248,5 +248,5 @@
 				<rows>4320</rows>
 			</item_003>
 		</items>
-	</hash_2001007e911f9832b3039ebb2d16b4f76cd9be>
+	</hash_200100e143bdddf248faa59fa01760ae8f361a>
 </cacti>
