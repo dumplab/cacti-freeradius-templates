@@ -3,6 +3,8 @@
 ## Introduction
 Contains templates to query your FreeRADIUS server stats. Query authentication, accounting and proxy-authentication stats. Requires radclient.
 
+![Graph example](https://www.dumplab.ch/assets/img/fr.png)
+
 ## Installation
 Copy freeradius.php into folder scripts in cacti. Install radclient and edit the path to radclient in freeradius.php. Import all templates in cacti.
 
